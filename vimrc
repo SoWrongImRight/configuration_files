@@ -1,3 +1,14 @@
+" vim-plug 
+call plug#begin()
+Plug 'junegunn/vim-easy-align'
+Plug 'tpope/vim-fugitive'
+Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
+Plug 'airblade/vim-gitgutter'
+Plug 'dense-analysis/ale'
+
+call plug#end()
+
+
 try
     colorscheme solarized
 catch
